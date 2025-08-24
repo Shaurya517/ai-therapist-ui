@@ -14,7 +14,8 @@ export default function App() {
         <div className="p-6 sm:p-8">
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
-            <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight">AI - Therapist</h1>
+            <h1 class="text-3xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">AI-Therapist</h1>
+
             <ToggleTabs mode={mode} onChange={setMode} />
           </div>
 
